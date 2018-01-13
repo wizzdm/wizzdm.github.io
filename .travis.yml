@@ -1,2 +1,8 @@
-npm install travis-encrypt -g
-travis-encrypt -r wizzdm/wizzdm.github.io -k GH_TOKEN -v d6319a72f156bd38ca258482ff8ce72e4dcfd142
+language: node_js
+node_js:
+- '0.10'
+script: npm run-script deploy
+env:
+ global:
+ - GH_REF: github.com/wizzdm/wizzdm.github.io.git
+ - secure: d6319a72f156bd38ca258482ff8ce72e4dcfd142
