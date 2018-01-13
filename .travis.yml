@@ -1,8 +1,5 @@
-language: node_js
-node_js:
-- '0.10'
-script: npm run-script deploy
-env:
- global:
- - GH_REF: github.com/wizzdm/wizzdm.github.io.git
- - secure: d6319a72f156bd38ca258482ff8ce72e4dcfd142
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+ - rbx-3
