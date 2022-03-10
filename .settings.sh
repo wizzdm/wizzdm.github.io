@@ -6,16 +6,17 @@
 
 # stop all ssh processes
 sudo killall ssh*
-
+sudo umount -
 # ionos ssh connection
 ssh u104701444@access870942105.webspace-data.io
 
-# passwd : @Ku2XETA9F3rq#d
+# ftp login as u104701444 (https://my.ionos.co.uk)
+# @Ku2XETA9F3rq#d
 
 # ionos mount
 sshfs u104701444@access870942105.webspace-data.io:/ /mount
 
-
+# Spotify developer for SPOTIPY_CLIENT access
 
 export SPOTIPY_CLIENT_ID='e81c5ecbf0be465d99653d96ce52c046'
 export SPOTIPY_CLIENT_SECRET='598d0f5379014b0f83da2cff1a44c988'
