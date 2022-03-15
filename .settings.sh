@@ -14,7 +14,7 @@ ssh u104701444@access870942105.webspace-data.io
 # @Ku2XETA9F3rq#d
 
 # ionos mount
-sshfs u104701444@access870942105.webspace-data.io:/ /mount
+sshfs u104701444@access870942105.webspace-data.io:/ m
 
 # Spotify developer for SPOTIPY_CLIENT access
 
